@@ -60,7 +60,7 @@ input[type=radio]{
 	content: '';
 	appearance: none;
 	-webkit-appearance: none;
-	border: 2px solid var(--weasy-19);
+	border: 1px solid var(--weasy-19);
 	border-radius: 50px;
 	width: 25px;
 	height: 25px;
@@ -74,6 +74,11 @@ input[type=radio]{
 .-color-bandeja-2{
 	background-color: var(--weasy-7);
 }
+
+
+
+
+
 
 input[type=radio]:checked{
 	padding: 5px;
