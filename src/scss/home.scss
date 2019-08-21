@@ -64,41 +64,41 @@ body {
 	margin-right: 20px;
 }
 
-.mega-menu-list {
-	list-style-type: none;
-	margin-right: 0;
-	padding-left: 0;
-	margin-block-start: 0px;
-	margin-block-end: 0px;
-}
+// .mega-menu-list {
+// 	list-style-type: none;
+// 	margin-right: 0;
+// 	padding-left: 0;
+// 	margin-block-start: 0px;
+// 	margin-block-end: 0px;
+// }
 
-.mega-menu-list > .item {
-	display: block;
-	position: relative;
-	float: left;
-}
+// .mega-menu-list > .item {
+// 	display: block;
+// 	position: relative;
+// 	float: left;
+// }
 
-.mega-menu-list > .item:last-child {
-	border-right: 1px solid var(--nova-moto-center-1-light);
-}
+// .mega-menu-list > .item:last-child {
+// 	border-right: 1px solid var(--nova-moto-center-1-light);
+// }
 
-.mega-menu-list > .item > a {
-	width: 100%;
-	display: inline-block;
-	padding: 0 10px;
-	margin: 0;
-	line-height: 120px;
-	font-size: 1rem;
-	font-weight: 600;
-	text-align: center;
-	color: var(--nova-moto-center-1);
-}
+// .mega-menu-list > .item > a {
+// 	width: 100%;
+// 	display: inline-block;
+// 	padding: 0 10px;
+// 	margin: 0;
+// 	line-height: 120px;
+// 	font-size: 1rem;
+// 	font-weight: 600;
+// 	text-align: center;
+// 	color: var(--nova-moto-center-1);
+// }
 
-.mega-menu-list > .item > a:hover {
-	color: var(--weasy-white);
-	background-color: var(--nova-moto-center-2);
-	transition: color background-color 0.3s ease-in;
-}
+// .mega-menu-list > .item > a:hover {
+// 	color: var(--weasy-white);
+// 	background-color: var(--weasy-2);
+// 	transition: color background-color 0.3s ease-in;
+// }
 
 .menu {
 	display: none;
@@ -305,7 +305,7 @@ body {
 	flex: 1 1 auto;
 	padding: 1.25rem;
 	line-height: 1.25rem;
-	color: var(--nova-moto-center-6);
+	color: var(--weasy-16);
 }
 
 .produto-titulo {
@@ -419,7 +419,7 @@ body {
 .banner-frete-imagem-item{
 	width: 150px;
 	height: 150px;
-	border: 1px solid black;
+	// border: 1px solid black;
 	margin: 50px 0;
 }
 
@@ -462,7 +462,7 @@ body {
 .banner-reciclo-imagem-item{
 	width: 500px;
 	// height: 145px;
-	border: 1px solid black;
+	// border: 1px solid black;
 	margin:20px;
 }
 
@@ -490,7 +490,7 @@ body {
 }
 
 .depoimentos-item{
-	background-color: #f3cab7;
+	background-color: var(--weasy-5);
 	border-radius: 0px;
 	border: 0px;
 }
@@ -547,87 +547,24 @@ body {
 	margin-top: 20px;
 }
 
-
-
-
-// .footer-formulario-titulo {
-// 	margin-bottom: 20px;
-// 	font-size: 1.25rem;
-// 	font-weight: 600;
-// 	text-transform: uppercase;
-// }
-
-// .footer-formulario-input {
-// 	width: 180px;
-// 	color: var(--nova-moto-center-white);
-// 	background-color: var(--nova-moto-center-1);
-// 	border: 1px solid var(--nova-moto-center-white);
-// 	padding: 5px;
-// }
-
-// .footer-formulario-botao {
-// 	width: 70px;
-// 	color: var(--nova-moto-center-white);
-// 	background-color: var(--nova-moto-center-1);
-// 	border: 1px solid var(--nova-moto-center-white);
-// 	padding: 5px;
-// }
-
-// .footer-formulario-info {
-// 	list-style-type: none;
-// 	margin-top: 40px;
-// 	padding-left: 0px;
-// }
-
-// .footer-formulario-info > .item {
-// 	margin-bottom: 15px;
-// }
-
-// .footer-formulario-info > .item > a {
-// 	text-decoration: none;
-// 	color: var(--nova-moto-center-white);
-// }
-
-// // FOOTER // NOSSA LOJA
-// .footer-loja-titulo {
-// 	margin-bottom: 20px;
-// 	font-size: 1.25rem;
-// 	text-transform: uppercase;
-// 	font-weight: 600;
-// }
-
-// .footer-loja-mapa {
-// 	width: 200px;
-// 	height: 175px;
-// 	float: left;
-// }
-
-// .footer-loja-info {
-// 	font-size: 1rem;
-// 	width: 50%;
-// 	float: left;
-// 	margin-left: 15px;
-// }
-
-// // FOOTER // PAGAMENTO
-
-// .footer-pagamento-titulo {
-// 	margin-bottom: 20px;
-// 	font-size: 1.25rem;
-// 	text-transform: uppercase;
-// 	font-weight: 600;
-// }
-
-.footer-pagamento-wrapper-icones {
-	display: block;
+.footer-list-icones{
+	list-style-type: none;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
 	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-inline-start: 0px;
 }
 
-.footer-pagamento-wrapper-icones > img {
-	width: 30px;
+.footer-list-icones > .item{
+	margin-right: 10px;
 }
 
-
+.footer-creditos{
+	margin-top: 10px;
+	font-size: 0.7rem;
+}
 
 // MEDIA QUERIES
 
@@ -789,13 +726,21 @@ body {
 		justify-content: center;
 	}
 
-	.bar-top-telefone {
+	.bar-top{
+		height: auto;
+	}
+
+	.bar-top-list{
+		padding-inline-start: 0px;
+		margin-top:10px;
+		margin-bottom: 10px;
+		width: 100%;
 		justify-content: center;
 	}
 
-	.bar-top-list {
-		width: 100%;
+	.bar-top-telefone {
 		justify-content: center;
+		margin-top:10px;
 	}
 
 	.mega-menu-list {
@@ -813,6 +758,15 @@ body {
 	.mega-menu-icon-car {
 		margin-left: 10px;
 	}
+
+	.banner-frete-imagem{
+		justify-content: center;
+	}
+
+	.banner-frete-titulo{
+		margin-top: 50px;
+	}
+	
 
 }
 
@@ -838,42 +792,42 @@ body {
 
 	// MENU MOBILE
 
-	.mega-menu-list {
-		display: block;
-		width: 100%;
-		height: calc(100%-70px);
-		padding-top: 30px;
-		margin-bottom: 70px;
-		position: fixed;
-		left: 0;
-		bottom: 0px;
-		background-color: var(--nova-moto-center-2);
-		color: var(--nova-moto-center-white);
-		z-index: 20;
-		transform: translateY(100%);
-		transition: transform 400ms 100ms ease-in;
+	// .mega-menu-list {
+	// 	display: block;
+	// 	width: 100%;
+	// 	height: calc(100%-70px);
+	// 	padding-top: 30px;
+	// 	margin-bottom: 70px;
+	// 	position: fixed;
+	// 	left: 0;
+	// 	bottom: 0px;
+	// 	background-color: var(--nova-moto-center-2);
+	// 	color: var(--nova-moto-center-white);
+	// 	z-index: 20;
+	// 	transform: translateY(100%);
+	// 	transition: transform 400ms 100ms ease-in;
 
-		// SOMBRA
-		-webkit-box-shadow: -7px 33px 84px -34px rgba(0, 0, 0, 0.95);
-		-moz-box-shadow: -7px 33px 84px -34px rgba(0, 0, 0, 0.95);
-		box-shadow: -7px 33px 84px -34px rgba(0, 0, 0, 0.95);
-	}
+	// 	// SOMBRA
+	// 	-webkit-box-shadow: -7px 33px 84px -34px rgba(0, 0, 0, 0.95);
+	// 	-moz-box-shadow: -7px 33px 84px -34px rgba(0, 0, 0, 0.95);
+	// 	box-shadow: -7px 33px 84px -34px rgba(0, 0, 0, 0.95);
+	// }
 
-	.mega-menu-list > .item {
-		display: block;
-		border: none;
-		width: 100%;
-		height: -100%;
-		padding: 0;
-		z-index: 20;
-	}
+	// .mega-menu-list > .item {
+	// 	display: block;
+	// 	border: none;
+	// 	width: 100%;
+	// 	height: -100%;
+	// 	padding: 0;
+	// 	z-index: 20;
+	// }
 
-	.mega-menu-list > .item > a {
-		width: 100%;
-		font-size: 2rem;
-		z-index: 20;
-		color: var(--nova-moto-center-white);
-	}
+	// .mega-menu-list > .item > a {
+	// 	width: 100%;
+	// 	font-size: 2rem;
+	// 	z-index: 20;
+	// 	color: var(--weasy-white);
+	// }
 
 	.active {
 		transform: translateY(0%);
@@ -888,7 +842,7 @@ body {
 		position: fixed;
 		bottom: 0;
 		right: 0;
-		background-color: var(--nova-moto-center-white);
+		background-color: var(--weasy-white);
 		transform: translateX(-200%);
 		padding: 10px;
 		cursor: pointer;
@@ -908,7 +862,7 @@ body {
 		position: fixed;
 		bottom: 0;
 		right: 0;
-		background-color: var(--nova-moto-center-white);
+		background-color: var(--weasy-white);
 		transform: translateX(-98%);
 		padding: 10px;
 		cursor: pointer;
@@ -921,7 +875,7 @@ body {
 		width: 33.333%;
 		height: 70px;
 		background: url(../img/icon-menu.svg) center no-repeat;
-		background-color: var(--nova-moto-center-2);
+		background-color: var(--weasy-2);
 		text-indent: -9999px;
 		margin: 0px;
 		position: fixed;
@@ -930,11 +884,16 @@ body {
 		padding: 15px;
 		cursor: pointer;
 		z-index: 22;
+		border: none;
 	}
 
 	.-fechado {
 		background: url(../img/icon-close.svg) center no-repeat;
-		background-color: var(--nova-moto-center-1);
+		background-color: var(--weasy-16);
+	}
+
+	.nav-link{
+		font-size: 1.3rem;
 	}
 
 	// FIM DO MENU MOBILE
@@ -984,8 +943,9 @@ body {
 
 	.faixa-titulo{
 		margin-top: 0;
+		font-size: 1.2rem;
 	}
-
+	
 	.faixa-imagem{
 		margin: 20px auto;
 	}
@@ -1034,8 +994,12 @@ body {
 	.banner-frete-imagem-item{
 		width: 100px;
 		height: 100px;
-		border: 1px solid black;
+		// border: 1px solid black;
 		margin:20px 0;
+	}
+
+	.footer-imagem-wrapper{
+		justify-content: initial;
 	}
 
 	.banner-reciclo-titulo{
@@ -1048,69 +1012,79 @@ body {
 		margin-bottom: 0px;
 	}
 
+	.banner-reciclo-imagem{
+		width: 100%;
+		height: auto;
+		margin: 30px 0;
+	}
+
+	.footer-titulo{
+		margin-top: 20px;
+	}
+
 	.footer {
 		padding-top: 15px;
 		padding-bottom: 85px;
 	}
 
-	.footer-formulario-titulo {
-		text-align: center;
-		margin-top: 15px;
-	}
+	// .footer-formulario-titulo {
+	// 	text-align: center;
+	// 	margin-top: 15px;
+	// }
 
-	.footer-formulario-input {
-		display: block;
-		text-align: center;
-		width: 90%;
-		margin: 15px auto;
-	}
+	// .footer-formulario-input {
+	// 	display: block;
+	// 	text-align: center;
+	// 	width: 90%;
+	// 	margin: 15px auto;
+	// }
 
-	.footer-formulario-botao {
-		display: block;
-		text-align: center;
-		width: 90%;
-		margin: 0 auto;
-	}
+	// .footer-formulario-botao {
+	// 	display: block;
+	// 	text-align: center;
+	// 	width: 90%;
+	// 	margin: 0 auto;
+	// }
 
-	.footer-formulario-info {
-		text-align: center;
-	}
+	// .footer-formulario-info {
+	// 	text-align: center;
+	// }
 
-	.footer-loja-titulo {
-		margin-top: 15px;
-		text-align: center;
-	}
+	// .footer-loja-titulo {
+	// 	margin-top: 15px;
+	// 	text-align: center;
+	// }
 
-	.footer-loja-mapa {
-		float: initial;
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-	}
+	// .footer-loja-mapa {
+	// 	float: initial;
+	// 	display: block;
+	// 	margin: 0 auto;
+	// 	text-align: center;
+	// }
 
-	.footer-loja-info {
-		float: initial;
-		width: 95%;
-		display: block;
-		font-size: 1rem;
-		margin: 0 auto;
-		text-align: center;
-		color: var(--nova-moto-center-white);
-	}
+	// .footer-loja-info {
+	// 	float: initial;
+	// 	width: 95%;
+	// 	display: block;
+	// 	font-size: 1rem;
+	// 	margin: 0 auto;
+	// 	text-align: center;
+	// 	color: var(--nova-moto-center-white);
+	// }
 
-	.footer-pagamento-titulo {
-		margin-top: 15px;
-		display: block;
-		text-align: center;
-	}
+	// .footer-pagamento-titulo {
+	// 	margin-top: 15px;
+	// 	display: block;
+	// 	text-align: center;
+	// }
 
-	.footer-pagamento {
-		width: 100%;
-	}
+	// .footer-pagamento {
+	// 	width: 100%;
+	// }
 
-	.footer-pagamento-wrapper-icones > img {
-		width: 50px;
-		display: inline-block;
-		margin-left: 30px;
-	}
+	// .footer-pagamento-wrapper-icones > img {
+	// 	width: 50px;
+	// 	display: inline-block;
+	// 	margin-left: 30px;
+	// }
 }
