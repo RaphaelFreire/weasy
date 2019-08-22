@@ -108,10 +108,11 @@ body {
 	display: inline-block;
 	position: relative;
 	color: var(--nova-moto-center-1-light);
+	background-color: var(--weasy-25);
 	width: 200px;
 	height: 30px;
 	padding: 10px;
-	border: 1px solid var(--nova-moto-center-1);
+	border: none;
 }
 
 .mega-menu-search-icon {
