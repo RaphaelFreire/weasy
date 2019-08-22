@@ -638,6 +638,14 @@ body {
 	.depoimento-card-text{
 		font-size: 0.9rem;
 	}
+
+	.footer-titulo-list>.item{
+		line-height: 15px;
+	}
+
+	.footer-titulo-list>.item>a {
+		font-size: 0.65rem;
+	}
 }
 
 
@@ -722,6 +730,7 @@ body {
 		font-size: 0.75rem;
 		margin-bottom: 0;
 	}
+
 }
 
 @media (max-width: 766px) {
@@ -769,8 +778,10 @@ body {
 	.banner-frete-titulo{
 		margin-top: 50px;
 	}
-	
 
+	.footer-imagem-wrapper{
+		justify-content: initial;
+	}
 }
 
 @media (max-width: 425px) {
@@ -1001,10 +1012,6 @@ body {
 		margin:20px 0;
 	}
 
-	.footer-imagem-wrapper{
-		justify-content: initial;
-	}
-
 	.banner-reciclo-titulo{
 		margin-top: 20px;
 	}
@@ -1028,6 +1035,14 @@ body {
 	.footer {
 		padding-top: 15px;
 		padding-bottom: 85px;
+	}
+
+	.footer-titulo-list>.item{
+		line-height: 25px;
+	}
+
+	.footer-titulo-list>.item>a {
+		font-size: 1rem;
 	}
 
 	// .footer-formulario-titulo {
