@@ -275,6 +275,13 @@ input[type=radio]:checked{
 
 
 
+.carousel-indicators > li{
+	background-color: var(--weasy-2);
+}
+
+
+
+
 @media(max-width: 768px){
 
 	.produto-dog{

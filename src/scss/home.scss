@@ -160,6 +160,10 @@ body {
 	padding-left: 0;
 }
 
+.card{
+	border: none;
+}
+
 
 .banner-principal-card{
 	position: relative;
@@ -284,7 +288,7 @@ body {
 
 .produtos-area {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	margin-bottom: 60px;
 }
 
