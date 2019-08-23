@@ -261,8 +261,8 @@ body {
 	display: flex;
 	justify-content: space-evenly;
 	margin-bottom: 60px;
-	margin-left: 10%;
-	margin-right: 10%;
+	// margin-left: 5%;
+	// margin-right: 5%;
 }
 
 .produto-wrapper {
@@ -414,7 +414,7 @@ body {
 	align-content: center;
 	justify-content: center;
 	flex-direction: column;
-	margin-top: 50px;
+	
 }
 
 .banner-reciclo-titulo {
@@ -423,6 +423,7 @@ body {
 	color: var(--weasy-13);
 	margin-bottom: 0;
 	text-align: left;
+	margin-top: 50px;
 }
 
 .banner-reciclo-subtitulo {
@@ -430,13 +431,15 @@ body {
 	font-size: 1.75rem;
 	margin-bottom: 0;
 	text-align: left;
+	margin-bottom: 50px;
 }
 
 .banner-reciclo-imagem {
 	display: flex;
 	align-content: center;
 	justify-content: space-around;
-	margin-top: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .banner-reciclo-imagem-item {
