@@ -10,32 +10,33 @@
 
 .megamenu {
 	position: static;
-  }
-  
-  .megamenu .dropdown-menu {
+}
+
+.megamenu .dropdown-menu {
 	background: none;
 	border: none;
 	width: 100%;
-  }
- 
-  .text-uppercase {
+}
+
+.text-uppercase {
 	letter-spacing: 0.08em;
-  }
+}
 
-  .text-small{
-	  font-size: 0.8rem;
-  }
+.text-small {
+	font-size: 0.8rem;
+}
 
-  .nav-link{
+.nav-link {
 	padding: 0.3rem 1rem;
-  }
+}
 
-  .mega-menu-subtitulo{
+.mega-menu-subtitulo {
 	color: var(--weasy-2);
 	font-size: 1rem;
-  }
+	font-weight: 600;
+}
 
-  .mega-menu-subtitulo-item1{
+.mega-menu-subtitulo-item1 {
 	color: var(--weasy-3);
 	font-size: 1rem;
-  }
+}
