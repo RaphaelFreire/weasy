@@ -58,9 +58,6 @@
 	height: 40px;	
 }
 
-
-
-
 .produto-dog-tip{
 	font-size: 0.75rem;
 }
@@ -203,6 +200,19 @@ input[type=radio]:checked{
 	background-color: var(--weasy-6);
 	letter-spacing: 0.03rem;
 	transition: all 0.3s ease 0s;
+}
+
+.-add{
+	margin: 0;
+}
+
+.smart-grupo{
+	display: inline-flex;
+}
+
+.produto-imagem-smart {
+	width: 100px;
+	margin: 0 auto;
 }
 
 
