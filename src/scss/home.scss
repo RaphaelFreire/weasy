@@ -414,7 +414,7 @@ body {
 }
 
 .banner-reciclo-titulo {
-	font-size: 1.8rem;
+	font-size: 2.5rem;
 	font-weight: 700;
 	color: var(--weasy-13);
 	margin-bottom: 0;
@@ -536,11 +536,11 @@ body {
 
 // MEDIA QUERIES
 
-// @media(max-width: 1440px){
-// 	.banner-reciclo-titulo{
-// 		font-size: 1.8rem;
-// 	}
-// }
+@media (max-width: 1440px) {
+	.banner-reciclo-titulo {
+		font-size: 1.8rem;
+	}
+}
 
 @media (max-width: 1200px) {
 	.navbar > .container {
