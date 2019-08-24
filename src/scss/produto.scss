@@ -1,6 +1,6 @@
 @import "variaveis.css";
 
-.wrapper-produto-dog{
+.wrapper-produto-dog {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -9,134 +9,96 @@
 	padding-left: 10%;
 }
 
-.produto-dog-item{
+.produto-dog-item {
 	margin-bottom: 10px;
-}	
+}
 
-.card-img{
+.card-img {
 	width: 50%;
 	margin: 0 auto;
 }
 
-
-.produto-dog{
+.produto-dog {
 	background-color: var(--weasy-17);
-	height: 650px;	
+	height: 650px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	padding: 20px;
 }
 
-.produto-dog-chapeu{
+.produto-dog-chapeu {
 	font-size: 1.5rem;
 	margin-bottom: 0;
 	color: var(--weasy-2);
 }
 
-.produto-dog-titulo{
+.produto-dog-titulo {
 	font-size: 3rem;
 	font-weight: 800;
 	margin-bottom: 0;
 	color: var(--weasy-2);
 }
 
-.produto-dog-label{
+.produto-dog-label {
 	// padding-top: calc(.375rem + 1px);
 	// padding-bottom: calc(.375rem + 1px);
 	// margin-top: 20px;
 	padding-left: 0;
 	padding-right: 0;
 	margin-bottom: 0;
-    font-size: inherit;
+	font-size: inherit;
 	line-height: 1rem;
 	font-size: 1rem;
 	color: var(--weasy-2);
+	font-weight: 600;
 }
 
-.form-control{
-	height: 40px;	
+.form-control {
+	height: 40px;
 }
 
-
-
-
-.produto-dog-tip{
+.produto-dog-tip {
 	font-size: 0.75rem;
 }
 
-.produto-dog-quantidade{
+.produto-dog-quantidade {
 	width: 55px;
 	padding-right: 5px;
 	display: inline-block;
 	margin-left: 5px;
 }
 
-.produto-dog-tamanho{
+.produto-dog-tamanho {
 	width: 200px;
 	display: inline-block;
 	margin-left: 5px;
 }
 
-.produto-dog-label-check{
+.produto-dog-label-check {
 	// border: 1px solid black;
-	margin-right: 10px;
+	margin-right: 5px;
+	// padding-top: 5px;
 }
 
-.form-check-input{
+.form-check-input {
 	position: initial;
 	margin-left: 0px;
+	margin-top: 0px;
 }
 
-input[type=radio]{
-	content: '';
+input[type="radio"] {
+	content: "";
 	appearance: none;
 	-webkit-appearance: none;
 	border: 2px solid var(--weasy-19);
 	border-radius: 50px;
-	width: 20px;
-	height: 20px;
-	vertical-align: bottom;
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
 }
 
-
-
-// COR BANDEJA
-
-.-color-bandeja-1{
-	background-color: var(--weasy-6);
-}
-
-.-color-bandeja-2{
-	background-color: var(--weasy-7);
-}
-
-
-
-// COR TAPETE
-
-.-color-tapete-1{
-	background-color: var(--weasy-3);
-}
-
-.-color-tapete-2{
-	background-color: var(--weasy-8);
-}
-
-.-color-tapete-3{
-	background-color: var(--weasy-5);
-}
-
-.-color-tapete-4{
-	background-color: var(--weasy-6);
-}
-
-.-color-tapete-5{
-	background-color: var(--weasy-7);
-}
-
-
-input[type=radio]:checked{
+input[type="radio"]:checked {
 	padding: 5px;
 	background-color: var(--weasy-20);
 	background-image: url(../img/check.svg);
@@ -145,16 +107,45 @@ input[type=radio]:checked{
 	padding: 5px;
 	left: 0;
 	bottom: 0;
-	vertical-align: bottom;
+	vertical-align: middle;
 	border: 2px solid var(--weasy-19);
 }
 
+// COR BANDEJA
 
-
-.form-check{
-	padding-left: 0;
+.-color-bandeja-1 {
+	background-color: var(--weasy-6);
 }
 
+.-color-bandeja-2 {
+	background-color: var(--weasy-7);
+}
+
+// COR TAPETE
+
+.-color-tapete-1 {
+	background-color: var(--weasy-3);
+}
+
+.-color-tapete-2 {
+	background-color: var(--weasy-8);
+}
+
+.-color-tapete-3 {
+	background-color: var(--weasy-5);
+}
+
+.-color-tapete-4 {
+	background-color: var(--weasy-6);
+}
+
+.-color-tapete-5 {
+	background-color: var(--weasy-7);
+}
+
+.form-check {
+	padding-left: 0;
+}
 
 .produto-dog-preco-condicoes {
 	font-size: 1rem;
@@ -166,7 +157,7 @@ input[type=radio]:checked{
 	color: var(--weasy-2);
 }
 
-.produto-preco-destaque{
+.produto-preco-destaque {
 	font-size: 1.5rem;
 }
 
@@ -205,16 +196,43 @@ input[type=radio]:checked{
 	transition: all 0.3s ease 0s;
 }
 
+.-add {
+	margin: 0;
+}
 
-.wrapper-produto-dog-inferior{
+.smart-grupo {
+	width: 75%;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	// border: 1px solid black;
+}
+
+.-botao-monte-seu {
+	width: 150px;
+	height: 50px;
+	margin-top: 50px;
+}
+
+.produto-imagem-smart {
+	width: 150px;
+	// margin: 0 auto;
+}
+
+.banner-produto {
+	padding: 14%;
+	background-color: #d9bd8d;
+}
+
+.wrapper-produto-dog-inferior {
 	display: flex;
 	justify-content: center;
 	background-color: var(--weasy-20);
-	padding-top:50px;
-	padding-bottom:50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-.produto-dog-inferior-conteudo{
+.produto-dog-inferior-conteudo {
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -224,95 +242,86 @@ input[type=radio]:checked{
 	padding-right: 0;
 }
 
-.desmontando{
+.desmontando {
 	background-color: var(--weasy-23);
-	height: 500px;
-	display: flex;
-	justify-content: center;
-	align-content: center;
 }
 
-.entrada-agua{
+.entrada-agua {
 	background-color: var(--weasy-24);
-	height: 500px;
-	display: flex;
-	justify-content: center;
-	align-content: center;
 }
 
-.parede{
+.parede {
 	background-color: var(--weasy-5);
-	height: 500px;
-	display: flex;
-	justify-content: center;
-	align-content: center;
 }
 
-.desmontando{
-	background-color: var(--weasy-23);
-	height: 500px;
-	display: flex;
-	justify-content: center;
-	align-content: center;
-}
-
-.dog-iframe{
-	width:50%;
-	height:75%;
-}
-
-.-inferior{
+.-inferior {
 	color: var(--weasy-22);
 	text-align: center;
 }
 
-.-botao-inferior{
+.-botao-inferior {
 	color: var(--weasy-white);
 	background-color: var(--weasy-22);
 	margin: 0 auto;
 	margin-top: 20px;
 }
 
-
-
-.carousel-indicators > li{
+.carousel-indicators > li {
 	background-color: var(--weasy-2);
 }
 
-
-
-
-@media(max-width: 768px){
-
-	.produto-dog{
+@media (max-width: 768px) {
+	.produto-dog {
 		height: auto;
 	}
 
-	.produto-dog-inferior-conteudo{
+	.produto-dog-inferior-conteudo {
 		display: inline-block;
 		text-align: center;
 	}
-	
-	.-botao-inferior{
-		margin: 0  auto;
+
+	.-botao-inferior {
+		margin: 0 auto;
 		margin-top: 20px;
 	}
-
 }
 
-@media(max-width: 425px){
-	.wrapper-produto-dog{
-		padding-left: 0;
+@media (max-width: 425px) {
+	.produto-wrapper {
+		width: 140px;
 	}
 
-	.produto-dog-tip{
-		margin:0;
-		padding:0;
+	.wrapper-produto-dog {
+		height: 100%;
+		padding: 0;
+		// padding: 10px;
 	}
 
-	.dog-iframe{
-		width:95%;
-		height:95%;
+	.produto-dog-tip {
+		margin: 0;
+		padding: 0;
 	}
 
+	.card-img {
+		width: 150px;
+		// height: 130px;
+		margin: 0 auto;
+	}
+
+	.smart-grupo {
+		width: 100%;
+		margin: 0;
+		display: flex;
+		align-items: center;
+	}
+
+	.-botao-monte-seu {
+		margin-top: 0;
+		margin-bottom: 0;
+		align-items: center;
+	}
+
+	.produto-imagem-smart {
+		width: 100px;
+	}
 }
