@@ -63,7 +63,7 @@
 }
 
 .produto-dog-quantidade {
-	width: 55px;
+	width: 50px;
 	padding-right: 5px;
 	display: inline-block;
 	margin-left: 5px;
@@ -76,9 +76,7 @@
 }
 
 .produto-dog-label-check {
-	// border: 1px solid black;
 	margin-right: 5px;
-	// padding-top: 5px;
 }
 
 .form-check-input {
@@ -91,12 +89,13 @@ input[type="radio"] {
 	content: "";
 	appearance: none;
 	-webkit-appearance: none;
-	border: 2px solid var(--weasy-19);
+	border: 1px solid var(--weasy-19);
 	border-radius: 50px;
 	width: 25px;
 	height: 25px;
 	vertical-align: middle;
 }
+
 
 input[type="radio"]:checked {
 	padding: 5px;
@@ -109,6 +108,51 @@ input[type="radio"]:checked {
 	bottom: 0;
 	vertical-align: middle;
 	border: 2px solid var(--weasy-19);
+}
+
+.wrapper-label-tamanho{
+	position: relative;
+}
+
+.label-tamanho{
+	position: absolute;
+	top: 4px;
+	left: 7px;
+	font-size: 0.75rem;
+	font-weight: 600;
+	z-index: -1;
+	color: var(--weasy-3);
+}
+
+.label-tamanho-maior{
+	left: 3px;
+}
+
+
+.info{
+	text-align: center;
+	font-size: 0.7rem;
+	font-weight: 600;
+	display: inline-block;
+	border-radius: 50px;
+	width: 20px;
+	height: 20px;
+	border: 2px solid var(--weasy-1);
+	color: var(--weasy-2);
+}
+
+.-active{
+	position: absolute;
+	top: 10%;
+	right: 30%;
+	background-size: cover;
+	background-image: url(../img/tamanho.svg);
+	width: 300px;
+	height: 600px;
+	border-radius: 10px;
+	color: var(--weasy-transparent);
+	background-color: var(--weasy-white);
+	z-index: 10;
 }
 
 // COR BANDEJA

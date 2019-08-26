@@ -3,7 +3,7 @@
 .aweasy-imagem {
 	background-image: url(../img/aweasy.jpg);
 	background-size: cover;
-	background-position-x: -150px;
+	background-position-x: 150px;
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -31,6 +31,13 @@
 	font-size: 0.9rem;
 }
 
+@media (max-width: 1440px) {
+	.aweasy-imagem {
+		background-position-x: 0px;
+	}
+}
+
+
 @media (max-width: 1024px) {
 	.aweasy-imagem {
 		background-position-x: -300px;
@@ -39,7 +46,7 @@
 
 @media (max-width: 768px) {
 	.aweasy-imagem {
-		background-position-x: -600px;
+		background-position-x: -550px;
 	}
 }
 

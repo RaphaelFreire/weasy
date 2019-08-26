@@ -299,13 +299,26 @@
           </dd>
 
           <dd class="produto-dog-item">
-            <label class="produto-dog-label" for="example-number-input">Escolha o tamanho</label>
-            <select class="form-control produto-dog-tamanho">
-              <option>Tamanho A</option>
-              <option>Tamanho B</option>
-              <option>Tamanho C</option>
-              <option>Tamanho D</option>
-            </select>
+            <label class="produto-dog-label" for="example-number-input">Tamanho: </label>
+       
+            <label class="form-check-label produto-dog-label-check wrapper-label-tamanho">
+                <input class="form-check-input input-tamanho" type="radio" name="tamanho" id="tamanho1" value="option1"> 
+                <label for="tamanho1" class="label-tamanho label-tamanho-maior">PP</label>
+            </label>
+            <label class="form-check-label produto-dog-label-check wrapper-label-tamanho">
+                <input class="form-check-input" type="radio" name="tamanho" id="tamanho" value="option1">
+                <label for="tamanho1" class="label-tamanho">P</label>
+            </label>
+            <label class="form-check-label produto-dog-label-check wrapper-label-tamanho">
+                <input class="form-check-input" type="radio" name="tamanho" id="tamanho" value="option1">
+                <label for="tamanho1" class="label-tamanho">M</label>
+            </label>
+            <label class="form-check-label produto-dog-label-check wrapper-label-tamanho">
+                <input class="form-check-input" type="radio" name="tamanho" id="tamanho" value="option1">
+                <label for="tamanho1" class="label-tamanho">G</label>
+            </label>
+            <span class="info">i</span>
+
           </dd>
 
           <dd class="produto-dog-item">
@@ -332,8 +345,7 @@
                 <input class="form-check-input" type="radio" name="agua" id="inlineRadio2" value="option2"> Não
               </label>
               <br />
-              <span class="produto-dog-tip">Atenção! Se você for comprar o Weasy Smart, é necessário ter entrada de
-                água.</span>
+              <span class="produto-dog-tip">Atenção! Se você for comprar o Weasy Smart, é necessário ter entrada de água.</span>
             </div>
           </dd>
 
@@ -384,6 +396,8 @@
           </dd>
 
           <button type="submit" class="produto-dog-button" value="" onclick="">Comprar</button>
+
+          <span class="produto-dog-tip">Detalhes do produtos</span>
 
         </div>
       </div>
@@ -680,6 +694,7 @@
 <script src="js/popper.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/menu.js"></script>
+<script src="js/tamanho.js"></script>
 <script src="https://kit.fontawesome.com/1a8ae93485.js"></script>
 
 </html>
