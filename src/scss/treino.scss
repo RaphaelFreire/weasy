@@ -1,0 +1,47 @@
+@import "variaveis.css";
+
+.treino-texto {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.-wrapper-treino-weasy {
+	background-color: var(--weasy-34);
+}
+
+.treino-video-chapeu,
+.treino-video-titulo {
+	text-transform: uppercase;
+	color: var(--weasy-2);
+	font-size: 1.8em;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+
+.treino-video-texto {
+	color: var(--weasy-2);
+}
+
+.-treino-2 {
+	color: var(--weasy-35);
+}
+
+.-treino-2-background {
+	background-color: var(--weasy-36);
+}
+
+.-treino-3 {
+	color: var(--weasy-38);
+}
+
+.-treino-3-background {
+	background-color: var(--weasy-37);
+}
+
+.-treino-4 {
+	color: var(--weasy-2);
+}
+
+.-treino-4-background {
+	background-color: var(--weasy-34);
+}

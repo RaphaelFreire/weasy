@@ -1,0 +1,94 @@
+@import "variaveis.css";
+
+.banner-parceiros {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.formulario-parceiro {
+	padding: 5%;
+	display: flex;
+	align-items: center;
+	background-color: var(--weasy-26);
+}
+
+.formulario-parceiro-titulo {
+	color: var(--weasy-28);
+	font-weight: 600;
+	font-size: 1rem;
+	margin-bottom: 20px;
+}
+
+.formulario-parceiro-input {
+	border: none;
+	border-radius: 50px;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.wrapper-parceiro-label {
+	display: flex;
+	align-items: baseline;
+}
+
+.formulario-parceiro-label {
+	color: var(--weasy-28);
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+.formulario-parceiro-button {
+	display: block;
+	width: 175px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	color: var(--weasy-28);
+	text-decoration: none;
+	user-select: none;
+	background-color: var(--weasy-27);
+	border: 1px solid transparent;
+	border-radius: 50px;
+	padding: 0.375rem;
+	font-size: 1.3rem;
+	font-weight: 800;
+	line-height: 2rem;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+		border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.formulario-parceiro-button:hover {
+	text-decoration: none;
+	color: var(--weasy-28);
+	background-color: var(--weasy-white);
+	letter-spacing: 0.03rem;
+	transition: all 0.3s ease 0s;
+	border: 1px solid var(--weasy-28);
+}
+
+.wrapper-weasy-corp {
+	background-color: var(--weasy-25);
+}
+
+.weasy-corp-titulo {
+	color: var(--weasy-30);
+	font-weight: 700;
+	font-size: 3.5em;
+}
+
+.weasy-corp-texto {
+	font-size: 1rem;
+	font-weight: 600;
+	color: var(--weasy-30);
+}
+
+.-corp {
+	background-color: var(--weasy-30);
+	color: var(--weasy-white);
+}
+
+.-corp:hover {
+	background-color: var(--weasy-transparent);
+	color: var(--weasy-30);
+	border-color: var(--weasy-30);
+}

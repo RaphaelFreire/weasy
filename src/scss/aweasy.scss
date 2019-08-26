@@ -1,0 +1,51 @@
+@import "variaveis.css";
+
+.aweasy-imagem {
+	background-image: url(../img/aweasy.jpg);
+	background-size: cover;
+	background-position-x: -150px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.wrapper-aweasy {
+	padding: 5%;
+	display: flex;
+	align-items: center;
+	background-color: var(--weasy-39);
+}
+
+.aweasy-imagem-responsiva {
+	display: none;
+}
+
+.petclub-titulo {
+	color: var(--weasy-40);
+	font-weight: 800;
+	font-size: 1.8rem;
+	margin-bottom: 20px;
+}
+
+.aweasy-texto {
+	color: var(--weasy-40);
+	font-size: 0.9rem;
+}
+
+@media (max-width: 1024px) {
+	.aweasy-imagem {
+		background-position-x: -300px;
+	}
+}
+
+@media (max-width: 768px) {
+	.aweasy-imagem {
+		background-position-x: -600px;
+	}
+}
+
+@media (max-width: 425px) {
+	.aweasy-imagem-responsiva {
+		display: block;
+		width: 100%;
+	}
+}

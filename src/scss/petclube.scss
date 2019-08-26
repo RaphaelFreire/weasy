@@ -1,0 +1,43 @@
+@import "variaveis.css";
+
+.banner-petclub {
+	padding-left: 0px;
+	padding-right: 0px;
+	background-image: url(../img/banner-parceiros-corte.png);
+	background-size: cover;
+}
+
+.banner-petclub {
+	padding: 5%;
+	display: flex;
+	align-items: center;
+	background-color: var(--weasy-26);
+}
+
+.formulario-petclub {
+	background-color: var(--weasy-32);
+}
+
+.petclub-titulo {
+	color: var(--weasy-31);
+	font-weight: 800;
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+}
+
+.petclub-texto {
+	color: var(--weasy-31);
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+.-petclub-botao {
+	width: 230px;
+	color: var(--weasy-31);
+	background-color: var(--weasy-33);
+}
+
+.-petclub-botao:hover {
+	border-color: var(--weasy-31);
+	background-color: var(--weasy-white);
+}

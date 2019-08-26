@@ -1,0 +1,30 @@
+@import "variaveis.css";
+
+.wrapper-aweasy {
+	padding: 5%;
+	display: flex;
+	align-items: center;
+	background-color: var(--weasy-39);
+}
+
+.wrapper-imagem-historia {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.imagem-historia {
+	width: 100%;
+	height: 100%;
+}
+
+.historia-titulo {
+	color: var(--weasy-2);
+	font-weight: 800;
+	font-size: 1.8rem;
+	margin-bottom: 20px;
+}
+
+.historia-texto {
+	color: var(--weasy-2);
+	font-size: 0.85rem;
+}
