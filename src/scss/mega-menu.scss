@@ -8,6 +8,11 @@
 *
 */
 
+
+.dropdown-menu{
+	background-color: var(--weasy-fundo-mega-menu);
+}
+
 .megamenu {
 	position: static;
 }
@@ -39,4 +44,8 @@
 .mega-menu-subtitulo-item1 {
 	color: var(--weasy-3);
 	font-size: 1rem;
+}
+
+.dropdown-toggle::after{
+	display: none;
 }
