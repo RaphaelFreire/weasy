@@ -215,7 +215,7 @@ body {
 
 .wrapper-faixa-formulario {
 	width: 100%;
-	height: 100%;
+	height: 100px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -230,6 +230,11 @@ body {
 	// text-align: center;
 }
 
+.mensagem-sucesso{
+	text-align: center;
+	color: var(--weasy-white);
+}
+
 .faixa-imagem {
 	display: block;
 	margin: 0 auto;
@@ -239,10 +244,12 @@ body {
 .faixa-botao {
 	width: 185px;
 	border-radius: 50px;
-	border: none;
+	box-sizing: border-box;
+	border-color: transparent;
 	padding: 10px;
 	color: var(--weasy-white);
 	background-color: var(--weasy-6);
+	
 }
 
 .faixa-botao:hover {
@@ -250,6 +257,7 @@ body {
 	background-color: var(--weasy-white);
 	border: 1px solid var(--weasy-6);
 	font-weight: 600;
+	box-sizing: border-box;
 }
 
 // TITULO PRODUTOS
