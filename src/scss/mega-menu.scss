@@ -51,7 +51,7 @@
 }
 
 .imagem-menu{
-	border: 0px;
+	border: none;
 	width: 300px;
 	height: 300px;
 	opacity: 0;
@@ -59,16 +59,18 @@
 
 .imagem-menu-troca{
 	background-image: url(../img/weasy_cao.png);
-	background-size: cover;
-	width: 300px;
-	height: 300px;
+	// background-size: cover;
+	width: 310px;
+	height: 310px;
 	background-repeat: no-repeat;
 	opacity: 1;
+	border: none;
 }
 
 .imagem-menu-troca2{
 	background-image: url(../img/weasy_smart.png);
 	opacity: 1;
+	border: none;
 }
 
 .imagem-menu-troca3{
