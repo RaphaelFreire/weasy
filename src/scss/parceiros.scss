@@ -93,11 +93,14 @@
 	border-color: var(--weasy-30);
 }
 
-
-.imagem-mulher{
+.imagem-mulher {
 	background-image: url(../img/seja-parceiro.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position-x: 0;
 	height: 100%;
+}
+
+.-imagem-dog {
+	background-image: url(../img/dog-corp.jpg);
 }
