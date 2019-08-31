@@ -49,150 +49,136 @@
 	display: none;
 }
 
-.imagem-menu {
-	background-image: url(../img/produto-dog.png);
+.imagem-menu{
+	border: none;
+	width: 300px;
+	height: 300px;
+	opacity: 0;
+}
+
+.imagem-menu-troca{
+	background-image: url(../img/weasy_cao.png);
 	background-size: cover;
 	width: 300px;
 	height: 300px;
 	background-repeat: no-repeat;
+	opacity: 1;
+	border: none;
 }
 
-.imagem-menu-troca {
-	background-image: url(../img/produto-gato.png);
-	background-size: cover;
-	width: 300px;
-	height: 300px;
-	background-repeat: no-repeat;
+.imagem-menu-troca2{
+	background-image: url(../img/weasy_smart.png);
+	opacity: 1;
+	border: none;
 }
 
-.imagem-menu-troca2 {
-	background-image: url(../img/produto-dog-05.png);
+.imagem-menu-troca3{
+	background-image: url(../img/dispenser.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca3 {
-	background-image: url(../img/produto-dog-06.png);
+.imagem-menu-troca5{
+	background-image: url(../img/tapete_grama.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca4 {
-	background-image: url(../img/banner-produto-dog-04.png);
+.imagem-menu-troca6{
+	background-image: url(../img/xixi_sim_xixi_nao.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca5 {
-	background-image: url(../img/imagem-principal-1.png);
+.imagem-menu-troca7{
+	background-image: url(../img/petisco.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca6 {
-	background-image: url(../img/imagem-principal-2.png);
+.imagem-menu-troca8{
+	background-image: url(../img/sacoco_casa.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca7 {
-	background-image: url(../img/imagem-principal-3.png);
+.imagem-menu-troca9{
+	background-image: url(../img/sacoco_passeio.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca8 {
-	background-image: url(../img/imagem-principal-1.png);
+.imagem-menu-troca10{
+	background-image: url(../img/desinfetante.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca9 {
-	background-image: url(../img/imagem-principal-2.png);
+.imagem-menu-troca11{
+	background-image: url(../img/porta_saquinhos.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca10 {
-	background-image: url(../img/imagem-principal-3.png);
+.imagem-menu-troca12{
+	background-image: url(../img/bolinha.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca11 {
-	background-image: url(../img/imagem-principal-1.png);
+
+.imagem-menu-troca13{
+	background-image: url(../img/osso_anti_tartaro.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca12 {
-	background-image: url(../img/imagem-reciclo.png);
+.imagem-menu-troca14{
+	background-image: url(../img/casco.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca13 {
-	background-image: url(../img/imagem-principal-2.png);
+.imagem-menu-troca16{
+	background-image: url(../img/bolinha.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca14 {
-	background-image: url(../img/imagem-principal-3.png);
+
+.imagem-menu-troca19{
+	background-image: url(../img/ac_tapete.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca15 {
-	background-image: url(../img/imagem-principal-1.png);
+.imagem-menu-troca20{
+	background-image: url(../img/posca_branca.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca16 {
-	background-image: url(../img/imagem-reciclo.png);
+
+.imagem-menu-troca26{
+	background-image: url(../img/cy.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca17 {
-	background-image: url(../img/imagem-reciclo.png);
+
+.imagem-menu-troca27{
+	background-image: url(../img/adaptador_12.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca18 {
-	background-image: url(../img/imagem-principal-2.png);
+.imagem-menu-troca28{
+	background-image: url(../img/ac_temporizador.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca19 {
-	background-image: url(../img/imagem-principal-3.png);
+
+.imagem-menu-troca30{
+	background-image: url(../img/ponteira_fixadora.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca20 {
-	background-image: url(../img/imagem-principal-1.png);
+.imagem-menu-troca31{
+	background-image: url(../img/ac-mangueira-fina-adaptador.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca21 {
-	background-image: url(../img/imagem-reciclo.png);
+.imagem-menu-troca32{
+	background-image: url(../img/parede.png);
+	opacity: 1;
 }
 
-.imagem-menu-troca22 {
-	background-image: url(../img/imagem-reciclo.png);
-}
 
-.imagem-menu-troca23 {
-	background-image: url(../img/imagem-principal-2.png);
-}
 
-.imagem-menu-troca24 {
-	background-image: url(../img/imagem-principal-3.png);
-}
 
-.imagem-menu-troca25 {
-	background-image: url(../img/imagem-principal-1.png);
-}
 
-.imagem-menu-troca26 {
-	background-image: url(../img/imagem-reciclo.png);
-}
 
-.imagem-menu-troca27 {
-	background-image: url(../img/imagem-principal-2.png);
-}
-
-.imagem-menu-troca28 {
-	background-image: url(../img/imagem-principal-3.png);
-}
-
-.imagem-menu-troca29 {
-	background-image: url(../img/imagem-principal-1.png);
-}
-
-.imagem-menu-troca30 {
-	background-image: url(../img/imagem-reciclo.png);
-}
-
-.imagem-menu-troca31 {
-	background-image: url(../img/imagem-principal-2.png);
-}
-
-.imagem-menu-troca32 {
-	background-image: url(../img/imagem-principal-3.png);
-}
-
-.imagem-menu-troca33 {
-	background-image: url(../img/imagem-principal-1.png);
-}
-
-.imagem-menu-troca33 {
-	background-image: url(../img/imagem-reciclo.png);
-}

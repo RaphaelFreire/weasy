@@ -491,14 +491,28 @@ $imageMenu32.addEventListener("mouseleave", () => {
 	$element32.classList.remove("imagem-menu-troca32");
 });
 
-// // IMAGEM 33
-const $imageMenu33 = document.querySelector("#imagem-menu33");
 
-$imageMenu33.addEventListener("mouseover", () => {
-	const $element33 = document.querySelector(".imagem-menu");
-	const $style33 = getComputedStyle($element33);
-	$element33.classList.add("imagem-menu-troca33");
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 $imageMenu33.addEventListener("mouseleave", () => {
 	const $element33 = document.querySelector(".imagem-menu");
