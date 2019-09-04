@@ -12,7 +12,7 @@ $megaMenu.addEventListener("click", () => {
 
 
 
-// ALTERNANDO AS IMAGENS DO MEGA-MENU
+// ALTERNANDO AS IMAGENS DO MEGA-MENU CACHORRO
 
 // IMAGEM 1
 const $imageMenu = document.querySelector("#imagem-menu");
@@ -60,6 +60,22 @@ $imageMenu3.addEventListener("mouseleave", () => {
 	const $element3 = document.querySelector('.imagem-menu');
 	const $style3 = getComputedStyle($element3);
 	$element3.classList.remove('imagem-menu-troca3');
+})
+
+
+// // IMAGEM 4
+const $imageMenu4 = document.querySelector("#imagem-menu4");
+
+$imageMenu4.addEventListener("mouseover", () => {
+	const $element4 = document.querySelector(".imagem-menu");
+	const $style4 = getComputedStyle($element4);
+	$element4.classList.add("imagem-menu-troca4");
+});
+
+$imageMenu4.addEventListener("mouseleave", () => {
+	const $element4 = document.querySelector('.imagem-menu');
+	const $style4 = getComputedStyle($element4);
+	$element4.classList.remove('imagem-menu-troca4');
 })
 
 
@@ -235,18 +251,232 @@ $imageMenu15.addEventListener("mouseleave", () => {
 	$element15.classList.remove('imagem-menu-troca15');
 })
 
-// // IMAGEM 16
+
+
+
+
+// ALTERNANDO AS IMAGENS DO MEGA-MENU GATOS
+
+
+
+
+// IMAGEM 16
 const $imageMenu16 = document.querySelector("#imagem-menu16");
 
 $imageMenu16.addEventListener("mouseover", () => {
-	const $element16 = document.querySelector(".imagem-menu");
+	const $element16 = document.querySelector(".imagem-menu2");
 	const $style16 = getComputedStyle($element16);
 	$element16.classList.add("imagem-menu-troca16");
 });
 
-$imageMenu2.addEventListener("mouseleave", () => {
-	const $element16 = document.querySelector('.imagem-menu');
+$imageMenu16.addEventListener("mouseleave", () => {
+	const $element16 = document.querySelector('.imagem-menu2');
 	const $style16 = getComputedStyle($element16);
 	$element16.classList.remove('imagem-menu-troca16');
 })
 
+
+
+// IMAGEM 17
+const $imageMenu17 = document.querySelector("#imagem-menu17");
+
+$imageMenu17.addEventListener("mouseover", () => {
+	const $element17 = document.querySelector(".imagem-menu2");
+	const $style17 = getComputedStyle($element17);
+	$element17.classList.add("imagem-menu-troca17");
+});
+
+$imageMenu17.addEventListener("mouseleave", () => {
+	const $element17 = document.querySelector('.imagem-menu2');
+	const $style17 = getComputedStyle($element17);
+	$element17.classList.remove('imagem-menu-troca17');
+})
+
+
+// IMAGEM 18
+const $imageMenu18 = document.querySelector("#imagem-menu18");
+
+$imageMenu18.addEventListener("mouseover", () => {
+	const $element18 = document.querySelector(".imagem-menu2");
+	const $style18 = getComputedStyle($element18);
+	$element18.classList.add("imagem-menu-troca18");
+});
+
+$imageMenu18.addEventListener("mouseleave", () => {
+	const $element18 = document.querySelector('.imagem-menu2');
+	const $style18 = getComputedStyle($element18);
+	$element18.classList.remove('imagem-menu-troca18');
+})
+
+
+
+// IMAGEM 19
+const $imageMenu19 = document.querySelector("#imagem-menu19");
+
+$imageMenu19.addEventListener("mouseover", () => {
+	const $element19 = document.querySelector(".imagem-menu2");
+	const $style19 = getComputedStyle($element19);
+	$element19.classList.add("imagem-menu-troca19");
+});
+
+$imageMenu19.addEventListener("mouseleave", () => {
+	const $element19 = document.querySelector('.imagem-menu2');
+	const $style19 = getComputedStyle($element19);
+	$element19.classList.remove('imagem-menu-troca19');
+})
+
+
+// IMAGEM 20
+const $imageMenu20 = document.querySelector("#imagem-menu20");
+
+$imageMenu20.addEventListener("mouseover", () => {
+	const $element20 = document.querySelector(".imagem-menu2");
+	const $style20 = getComputedStyle($element20);
+	$element20.classList.add("imagem-menu-troca20");
+});
+
+$imageMenu20.addEventListener("mouseleave", () => {
+	const $element20 = document.querySelector('.imagem-menu2');
+	const $style20 = getComputedStyle($element20);
+	$element20.classList.remove('imagem-menu-troca20');
+})
+
+
+// IMAGEM 21
+const $imageMenu21 = document.querySelector("#imagem-menu21");
+
+$imageMenu21.addEventListener("mouseover", () => {
+	const $element21 = document.querySelector(".imagem-menu2");
+	const $style21 = getComputedStyle($element21);
+	$element21.classList.add("imagem-menu-troca21");
+});
+
+$imageMenu21.addEventListener("mouseleave", () => {
+	const $element21 = document.querySelector('.imagem-menu2');
+	const $style21 = getComputedStyle($element21);
+	$element21.classList.remove('imagem-menu-troca21');
+})
+
+
+// IMAGEM 22
+const $imageMenu22 = document.querySelector("#imagem-menu22");
+
+$imageMenu22.addEventListener("mouseover", () => {
+	const $element22 = document.querySelector(".imagem-menu2");
+	const $style22 = getComputedStyle($element22);
+	$element22.classList.add("imagem-menu-troca22");
+});
+
+$imageMenu22.addEventListener("mouseleave", () => {
+	const $element22 = document.querySelector('.imagem-menu2');
+	const $style22 = getComputedStyle($element22);
+	$element22.classList.remove('imagem-menu-troca22');
+})
+
+// IMAGEM 23
+const $imageMenu23 = document.querySelector("#imagem-menu23");
+
+$imageMenu23.addEventListener("mouseover", () => {
+	const $element23 = document.querySelector(".imagem-menu2");
+	const $style23 = getComputedStyle($element23);
+	$element23.classList.add("imagem-menu-troca23");
+});
+
+$imageMenu23.addEventListener("mouseleave", () => {
+	const $element23 = document.querySelector('.imagem-menu2');
+	const $style23 = getComputedStyle($element23);
+	$element23.classList.remove('imagem-menu-troca23');
+})
+
+// IMAGEM 24
+const $imageMenu24 = document.querySelector("#imagem-menu24");
+
+$imageMenu24.addEventListener("mouseover", () => {
+	const $element24 = document.querySelector(".imagem-menu2");
+	const $style24 = getComputedStyle($element24);
+	$element24.classList.add("imagem-menu-troca24");
+});
+
+$imageMenu24.addEventListener("mouseleave", () => {
+	const $element24 = document.querySelector('.imagem-menu2');
+	const $style24 = getComputedStyle($element24);
+	$element24.classList.remove('imagem-menu-troca24');
+})
+
+// IMAGEM 25
+const $imageMenu25 = document.querySelector("#imagem-menu25");
+
+$imageMenu25.addEventListener("mouseover", () => {
+	const $element25 = document.querySelector(".imagem-menu2");
+	const $style25 = getComputedStyle($element25);
+	$element25.classList.add("imagem-menu-troca25");
+});
+
+$imageMenu25.addEventListener("mouseleave", () => {
+	const $element25 = document.querySelector('.imagem-menu2');
+	const $style25 = getComputedStyle($element25);
+	$element25.classList.remove('imagem-menu-troca25');
+})
+
+// IMAGEM 26
+const $imageMenu26 = document.querySelector("#imagem-menu26");
+
+$imageMenu26.addEventListener("mouseover", () => {
+	const $element26 = document.querySelector(".imagem-menu2");
+	const $style26 = getComputedStyle($element26);
+	$element26.classList.add("imagem-menu-troca26");
+});
+
+$imageMenu26.addEventListener("mouseleave", () => {
+	const $element26 = document.querySelector('.imagem-menu2');
+	const $style26 = getComputedStyle($element26);
+	$element26.classList.remove('imagem-menu-troca26');
+})
+
+// IMAGEM 27
+const $imageMenu27 = document.querySelector("#imagem-menu27");
+
+$imageMenu27.addEventListener("mouseover", () => {
+	const $element27 = document.querySelector(".imagem-menu2");
+	const $style27 = getComputedStyle($element27);
+	$element27.classList.add("imagem-menu-troca27");
+});
+
+$imageMenu27.addEventListener("mouseleave", () => {
+	const $element27 = document.querySelector('.imagem-menu2');
+	const $style27 = getComputedStyle($element27);
+	$element27.classList.remove('imagem-menu-troca27');
+})
+
+
+// IMAGEM 28
+const $imageMenu28 = document.querySelector("#imagem-menu28");
+
+$imageMenu28.addEventListener("mouseover", () => {
+	const $element28 = document.querySelector(".imagem-menu2");
+	const $style28 = getComputedStyle($element28);
+	$element28.classList.add("imagem-menu-troca28");
+});
+
+$imageMenu28.addEventListener("mouseleave", () => {
+	const $element28 = document.querySelector('.imagem-menu2');
+	const $style28 = getComputedStyle($element28);
+	$element28.classList.remove('imagem-menu-troca28');
+})
+
+
+
+// IMAGEM 29
+const $imageMenu29 = document.querySelector("#imagem-menu29");
+
+$imageMenu29.addEventListener("mouseover", () => {
+	const $element29 = document.querySelector(".imagem-menu2");
+	const $style29 = getComputedStyle($element29);
+	$element29.classList.add("imagem-menu-troca29");
+});
+
+$imageMenu29.addEventListener("mouseleave", () => {
+	const $element29 = document.querySelector('.imagem-menu2');
+	const $style29 = getComputedStyle($element29);
+	$element29.classList.remove('imagem-menu-troca29');
+})
