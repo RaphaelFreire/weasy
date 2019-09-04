@@ -280,13 +280,19 @@ input[type="radio"]:checked {
 }
 
 .banner-produto {
-	padding: 14%;
+	padding: 5%;
 	background-color: var(--weasy-47);
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner-gato {
-	padding: 14%;
+	padding: 5%;
 	background-color: var(--weasy-46);
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .wrapper-banner-dog-mulher{
@@ -295,17 +301,22 @@ input[type="radio"]:checked {
 }
 
 .banner-dog-mulher{
-	background-image: url(../img/banner-mulher-dog.png);
+	background-image: url(../img/montagem-banner-video-mulher.png);
 	background-color: var(--weasy-47);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position-x: 0;
 	height: 100%;
+	width: 90%;
+}
+
+.video-tv{
+	width: 75% !important;
 }
 
 
 .banner-gato-homem{
-	background-image: url(../img/banner-gato-homem.png);
+	background-image: url(../img/montagem-banner-video-homem-recorte.png);
 	background-color: var(--weasy-46);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -353,6 +364,7 @@ input[type="radio"]:checked {
 	background-color: var(--weasy-22);
 	margin: 0 auto;
 	margin-top: 20px;
+	text-align: center;
 }
 
 .carousel-indicators > li {
@@ -426,6 +438,7 @@ input[type="radio"]:checked {
 		margin-top: 0;
 		margin-bottom: 0;
 		align-items: center;
+		text-align: center;
 	}
 
 	.produto-imagem-smart {
