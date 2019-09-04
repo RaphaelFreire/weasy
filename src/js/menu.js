@@ -200,7 +200,7 @@ $imageMenu13.addEventListener("mouseover", () => {
 
 $imageMenu13.addEventListener("mouseleave", () => {
 	const $element13 = document.querySelector('.imagem-menu');
-	const $style13 = getComputedStyle($element2);
+	const $style13 = getComputedStyle($element13);
 	$element13.classList.remove('imagem-menu-troca13');
 })
 
