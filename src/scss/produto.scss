@@ -311,9 +311,10 @@ input[type="radio"]:checked {
 	width: 90%;
 }
 
-.video-tv{
-	width: 75% !important;
-}
+	.video-tv{
+		width: 70%;
+		border-radius: 20px;
+	}
 
 
 .banner-gato-homem{
@@ -453,4 +454,131 @@ input[type="radio"]:checked {
 	.banner-gato-homem{
 		background-position-y: -35px;	
 	}
+
+	.desmontando > video {
+		display:none;
+	}
+
+	.entrada-agua > video {
+		display:none;
+	}
+
+	.parede > video {
+		display:none;
+	}
+
+
+	.desmontando {
+		width: 100%;
+		height: 425px;
+		background-image: url(../img/mobile/produto_cao_camadas_mobile.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.entrada-agua {
+		width: 100%;
+		height: 425px;
+		background-image: url(../img/mobile/produto_cao_mobile.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.parede {
+		width: 100%;
+		height: 425px;
+		background-image: url(../img/mobile/produto_cao_parede_mobile.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.-gato1 {
+		width: 100%;
+		height: 425px;
+		background-image: url(../img/mobile/produto_gato_camadas_mobile.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.-gato2 {
+		width: 100%;
+		height: 425px;
+		background-image: url(../img/mobile/produto_gato_mobile.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.-smart1 {
+		width: 100%;
+		height: 500px;
+		background-image: url(../img/mobile/produto_cao_smart_mobile.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.-smart2 {
+		width: 100%;
+		height: 500px;
+		background-image: url(../img/mobile/produto_gato_smart_mobile.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+
+	.-active{
+		top:0;
+		right: 15%;
+		left: 15%;
+		
+	}
+
 }
+
+
+@media(max-width: 375px){
+	.desmontando {
+		height: 375px;
+	}
+
+	.entrada-agua {
+		height: 375px;
+	}
+
+	.parede {
+		height: 375px;
+	}
+
+	.-smart1 {
+			height: 450px;
+	}
+
+	.-smart2 {
+		height: 450px;
+	}
+}
+
+
+
+@media(max-width: 320px){
+	.desmontando {
+		height: 320px;
+	}
+
+	.entrada-agua {
+		height: 320px;
+	}
+
+	.parede {
+		height: 320px;
+	}
+
+	.-smart1 {
+			height: 390px;
+	}
+
+	.-smart2 {
+		height: 390px;
+	}
+
+}
+
