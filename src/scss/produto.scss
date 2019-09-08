@@ -271,6 +271,7 @@ input[type="radio"]:checked {
 	width: 150px;
 	height: 50px;
 	margin-top: 50px;
+	text-align: center;
 }
 
 .produto-imagem-smart {
@@ -280,13 +281,48 @@ input[type="radio"]:checked {
 }
 
 .banner-produto {
-	padding: 14%;
-	background-color: #d9bd8d;
+	padding: 5%;
+	background-color: var(--weasy-47);
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner-gato {
-	padding: 14%;
-	background-color: #cf8d92;
+	padding: 5%;
+	background-color: var(--weasy-46);
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-banner-dog-mulher{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.banner-dog-mulher{
+	background-image: url(../img/montagem-banner-video-mulher.png);
+	background-color: var(--weasy-47);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: 0;
+	height: 100%;
+	width: 90%;
+}
+
+.video-tv{
+	width: 75% !important;
+}
+
+
+.banner-gato-homem{
+	background-image: url(../img/montagem-banner-video-homem-recorte.png);
+	background-color: var(--weasy-46);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: 0;
+	height: 100%;
 }
 
 .wrapper-produto-dog-inferior {
@@ -329,11 +365,21 @@ input[type="radio"]:checked {
 	background-color: var(--weasy-22);
 	margin: 0 auto;
 	margin-top: 20px;
+	text-align: center;
 }
 
 .carousel-indicators > li {
 	background-color: var(--weasy-2);
 }
+
+@media(max-width: 1440px){
+	.banner-gato-homem{
+		background-position-x: -75px;	
+	}
+}
+
+
+
 
 @media (max-width: 768px) {
 	.produto-dog {
@@ -349,6 +395,15 @@ input[type="radio"]:checked {
 		margin: 0 auto;
 		margin-top: 20px;
 	}
+
+	.banner-dog-mulher{
+		background-position-y: -50px;	
+	}
+
+	.banner-gato-homem{
+		background-position-y: -75px;
+		background-position-x: 0px;	
+	}
 }
 
 @media (max-width: 425px) {
@@ -359,7 +414,7 @@ input[type="radio"]:checked {
 	.wrapper-produto-dog {
 		height: 100%;
 		padding: 0;
-		// padding: 10px;
+		padding: 10px;
 	}
 
 	.produto-dog-tip {
@@ -368,7 +423,7 @@ input[type="radio"]:checked {
 	}
 
 	.card-img {
-		width: 150px;
+		width: 300px;
 		// height: 130px;
 		margin: 0 auto;
 	}
@@ -384,9 +439,18 @@ input[type="radio"]:checked {
 		margin-top: 0;
 		margin-bottom: 0;
 		align-items: center;
+		text-align: center;
 	}
 
 	.produto-imagem-smart {
 		width: 100px;
+	}
+
+	.banner-dog-mulher{
+		background-position-y: -15px;	
+	}
+
+	.banner-gato-homem{
+		background-position-y: -35px;	
 	}
 }
