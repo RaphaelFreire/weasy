@@ -797,15 +797,15 @@
     <div class="row justify-content-center">
 
         <div class="col-sm-12 col-md-3 carousel-secao">
-            <img src="img/banner_01.png" class="img-fluid" alt="">
+            <img src="img/banner_01.png" class="img-fluid" alt="" width="100%">
         </div>
 
         <div class="col-sm-12 col-md-3 carousel-secao">
-          <img src="img/banner_home.png" class="img-fluid" alt="">
+          <img src="img/banner_home.png" class="img-fluid" alt="" width="100%">
         </div>
 
         <div class="col-sm-12 col-md-3 carousel-secao">
-          <img src="img/banner_dog.png" class="img-fluid" alt="">
+          <img src="img/banner_dog.png" class="img-fluid" alt="" width="100%">
         </div>
 
         <div class="col-sm-12 col-md-3 carousel-secao">
@@ -949,6 +949,14 @@
 
         </div>
       </div>
+
+      <div class="row justify-content-center">
+        <a target="_blank" rel="noopener" href="https://www.mayacomunicacao.com.br">
+          <img src="img/logo-maya.svg" alt="Logo Maya Comunicação" width="50px" height="50px">
+        </a>
+      </div>
+
+
     </div>
   </footer>
 
@@ -963,3 +971,36 @@
 <script src="https://kit.fontawesome.com/1a8ae93485.js"></script>
 
 </html>
+
+
+<script>
+    var div = document.createElement('div');
+    div.className = 'fb-customerchat';
+    div.setAttribute('page_id', '848406921928931');
+    div.setAttribute('ref', '');
+    document.body.appendChild(div);
+    window.fbMessengerPlugins = window.fbMessengerPlugins || {
+      init: function () {
+        FB.init({
+          appId            : '1678638095724206',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v3.3'
+        });
+      }, callable: []
+    };
+    window.fbAsyncInit = window.fbAsyncInit || function () {
+      window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
+      window.fbMessengerPlugins.init();
+    };
+    setTimeout(function () {
+      (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) { return; }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    }, 0);
+  </script>
